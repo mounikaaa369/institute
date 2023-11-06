@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+    .slideshow{
+
+    width:1500px;
+    height:800px;
+    background-repeat:no-repeat;
+    background-size:cover;
+    animation:slideshow 25s infinite;
+    animation-duration: 25s;
+    }
+
+
+    @keyframes slideshow{ 
+    0%{background-image:url(https://www.cbit.ac.in/wp-content/uploads/2019/01/ABOUT_TAB-1-1-2048x864.jpeg);} 
+    10%{background-image:url(https://akm-img-a-in.tosshub.com/indiatoday/images/story/201704/ncc_647_040717032531.jpg?size=690:388);} 
+    20%{background-image:url(https://pimrindore.ac.in/images/computer-lab.jpg);} 
+    30%{background-image:url(https://www.cbit.ac.in/wp-content/uploads/2023/10/Internship-Placement.-CBIT.png);}
+    40%{background-image:url(https://www.cbit.ac.in/wp-content/uploads/2023/07/Naac-A-Grade.png);}
+    50%{background-image:url(https://www.cbit.ac.in/wp-content/uploads/2023/02/Shruthi-Final-Day-Web-Banner.png);} 
+    60%{background-image:url(https://www.cbit.ac.in/wp-content/uploads/2022/07/Microsoft-min-2048x856.jpg);} 
+    70%{background-image:url(https://www.cbit.ac.in/wp-content/uploads/2019/01/ABOUT_TAB-1-1-2048x864.jpeg);} 
+    80%{background-image:url(https://cdn.dnaindia.com/sites/default/files/2018/11/22/756956-shveta-raina-112218.jpg?im=FitAndFill=(1200,900));} 
+    90%{background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFz8JECerj0ZTScEk5iOxJdVFStOoOC4XXfA&usqp=CAU);}
+    100%{background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAOAvpYOprE0D-PvkT3uc1B_h8RIhGf3r48w&usqp=CAU);}
+
+    }
+     
+
+   .c1{
+      color:red;
+      margin-left:400px;
+      font-size:40px;
+    }
+  .c2{
+     color:green;
+     font-size:20px;
+
+    }
+   .c3{
+       margin-left:400px;
+      color:green;
+      font-size:40px;
+
+    }
+                          
+
+
+        nav{
+            background-color: black;
+            padding: 1px;
+        }
+
+        .nav-item{
+            display: inline;
+            padding-left:10px;
+            padding:10px ;
+        }
+
+        .subnav{
+         position: absolute;
+         right:50px;
+         top: 10px;
+
+         
+            
+            
+        }
+
+        a{
+            font-size:25px ;
+            text-decoration:none ;
+            color:white ;
+    
+        }
+
+        .dropdown-menu{
+            position: absolute;
+            z-index: 10px;
+            left: 190px;
+            background-color: rgba(225, 225, 225,0.7);
+           
+            padding: 10px;
+            display: none;
+            margin-left:570px;
+        }
+
+        .dropdown-item{
+            list-style-type: none;
+            position: absolute;
+            text-decoration:none ;
+            
+        }
+        
+        .dropdown:hover .dropdown-menu{
+            display: block;
+        
+        }
+        
+        .m1{
+         padding-left:30px ; 
+         size: 10px;  
+        }
+
+        .n1{
+            display:inline ;
+          padding-right:200px ; 
+          font-size:40px ; 
+          color:whitesmoke;
+        }
+       
+
+        </style>
+</head>
+<body>
+   <nav>
+       <img class="m1" src="https://i.pinimg.com/550x/d1/bd/3b/d1bd3b6e85ccfdca413da69ca64e1e20.jpg" height="80" width="200">
+           <ul class="subnav">
+               <li class="n1"><b><i>THE INSTITUTE</i></b></li>
+              <li class="nav-item"><a href="index.html" target="-blank">Home<i class="fa-solid fa-house"></i></a></li>
+              <li class="nav-item"><a href="about.html">About<i class="fa-regular fa-address-card"></i></a></li>
+              <li class="nav-item dropdown"><a href="menu.html">Menu<i class="fa-solid fa-bars"></i></a>
+              <ul class="dropdown-menu">
+                 <li class="drop-item"><a href="placements.html">Placements</a></li>
+                 <li class="drop-item"><a href="admissions.html">admissions</a></li>
+                 <li class="drop-item"><a href="facilities.html">Facilities</a></li>
+                 <li class="drop-item"><a href="login.html">Login</a></li>
+              </ul>
+              </li>
+              <li class="nav-item"><a href="gallery.html">Gallery<i class="fa-regular fa-image"></i></a></li>
+              <li class="nav-item"><a href="contact.html">Contact<i class="fa-solid fa-phone"></i></a></li>
+           </ul>
+   </nav>
+
+
+   <div class="slideshow"></div>
+<br>
+<h1 class="c1">INSTITUTE RECRUITERS</h1>
+<br>
+<table border="10" >
+<tr>
+<th><img src="https://www.cbit.ac.in/wp-content/themes/CBIT/images/client/Abzooba.jpg" height="100" width="250"></th>
+<th><img src="https://www.cbit.ac.in/wp-content/themes/CBIT/images/client/accolite.jpg" height="100" width="260"></th>
+<th><img src="https://www.cbit.ac.in/wp-content/themes/CBIT/images/client/amazon.jpg" height="100" width="260"></th>
+<th><img src="https://www.cbit.ac.in/wp-content/themes/CBIT/images/client/Arcesium.jpg" height="100" width="260"></th>
+<th><img src="https://www.cbit.ac.in/wp-content/themes/CBIT/images/client/AtoS.jpg" height="100" width="260"></th>
+</tr>
+</table>
+<br><br>
+<table border="10">
+<tr>
+<th><img src="https://www.cbit.ac.in/wp-content/themes/CBIT/images/client/Babycell.jpg" height="100" width="250"></th>
+<th><img src="https://www.cbit.ac.in/wp-content/themes/CBIT/images/client/Aarvee%20Associates.jpg" height="100" width="260"></th>
+<th><img src="https://www.cbit.ac.in/wp-content/themes/CBIT/images/client/Bank%20of%20America.jpg" height="100" width="260"></th>
+<th><img src="https://www.cbit.ac.in/wp-content/themes/CBIT/images/client/Aurobindo.jpg" height="100" width="260"></th>
+<th><img src="https://www.cbit.ac.in/wp-content/themes/CBIT/images/client/Bajaj%20Allianz.jpg" height="100" width="260"></th>
+</tr>
+</table>
+<br><br>
+<h2 class="c3">2022-23 Placement Highlights</h2>
+
+<table cellspacing="180">
+<tr>
+<th><img src="https://www.cbit.ac.in/wp-content/themes/CBIT/images/100+-companies.png" height="80" width="100"><br><h5 class="c2">154+<br>Companies</h5></th>
+<th><img src="https://www.cbit.ac.in/wp-content/themes/CBIT/images/dream-companies.png" height="80" width="100"><br><h5 class="c2">1352<br>Placement Offers</h5></th>
+<th><img src="https://www.cbit.ac.in/wp-content/themes/CBIT/images/students-placed.png" height="80" width="100"><br><h5 class="c2">45.6L<br>Highest Package</h5></th>
+<th><img src="https://www.cbit.ac.in/wp-content/themes/CBIT/images/placements.png" height="80" width="100"><br><h5 class="c2">80%<br>Of Placements</h5></th>
+</tr>
+</table>
+
+
+        
+
+    
+    
+</body>
+</html>
